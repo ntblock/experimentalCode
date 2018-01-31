@@ -1,0 +1,36 @@
+.teamgrid > div {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: red;
+    align-items: center;
+    align-content:space-around;
+    font-family: "Lato", sans-serif;
+}
+/* This applies when nesting an object inside each div, like an image.
+.teamgrid > div {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+
+.teamgrid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-auto-rows: 120px;
+}
+/* This section is an attempt to get different info to display upon hovering over a div
+.teamgrid:hover {
+  display: contents;
+}
+
+#parent-overlay {
+    display:none;
+}
+#parent:hover #parent-overlay {
+    display:block;
+}
+*/

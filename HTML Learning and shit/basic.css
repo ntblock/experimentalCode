@@ -1,18 +1,61 @@
-.teamgrid > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #ffeead;
-}
-
-.teamgrid > div > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 html, body {
-    background-color: #ffffff;
+    background-color: #ffeead;
     margin: 10px;
+}
+
+input.custom {
+  color: grey;
+  font: 18px "Helvetica", "Arial", "sans-serif";
+}
+
+form {
+  font: 16px "Helvetica", "Arial", "sans-serif";
+  font-weight: bold;
+  font-style: normal;
+  font-variant-caps: titling-caps;
+  color: red;
+
+}
+
+button {
+  font-size: 18px "Helvetica", "Arial", "sans-serif";
+  font-weight: bolder;
+  color: red;
+  background-color: black;
+  padding: 14px 28px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 3px 3px 0 rgba(0,0,0,0.19);
+  border-color: black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  display: block;
+  width: 100px;
+}
+
+button:hover {
+    background-color: black; /* White */
+    color: red;
+}
+
+button:active {
+  background-color: #66666;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.forms {
+    display: inline-grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax (30px 1fr;))
+    grid-auto-rows: 40px;
+
+}
+
+label {
+
+}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
 }
