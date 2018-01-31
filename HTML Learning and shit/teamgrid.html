@@ -13,10 +13,31 @@
 
     </head>
     <body>
-        <h1>Hello World! How are you?</h1>
-        <p>
-            This is my big day. I am just so happy to be in the world. Yes, truth.
+      <header>
+        <nav>
+          <ul style="list-style: none;">
+            <ul id="navigation">
+              <li><a class="active" href="#home">Home</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+          </ul>
+        </nav>
+        <div id="logo">Site Logo</div>
+      </header>
+        <h1>Meet Our Team</h1>
+        <p id="meetTeam">
+          Kaf Adventures is run with passion, experience, compassion, and dedication.
+          We are committed to learning through experience, and creating an experience
+          that fosters growth and human change. These are all qualities we feel drive
+          success and create the leaders of tomorrow. We have a desire to create a community
+          that cultivates responsible, conscientious outdoor enthusiasts and adventurers.
         </p>
+        <p id="meetTeam">Kaf Adventures is a small company, which gives individual attention to our clients,
+          offering a more personal and customized approach to instruction and guided experiences.
+          Kaf is proud to have each and every person on our staff. They are truly the best people,
+          mountaineers, guides, teachers and ambassadors of mountain culture anywhere!</p>
         <!-- CSS Grid Practice -->
         <div class="teamgrid">
             <div id="parent">1</div>
@@ -42,6 +63,8 @@
           <input type="password" id="password-entry" class="custom" required></div>
           <div><label for="date-selector">Select a Date</label>
           <input type="date" id="date-selector"></div>
+          <div><label for="color">Select a Color</label>
+          <input type="color" id="color"></div>
           <div><ul style="list-style: none;">
             <li><label for="radio-button">Hell yes!</label>
             <input type="radio" name:"radio" id="radio-button"></li>
@@ -55,6 +78,7 @@
             <option value="option-2">Ski Touring</option>
             <option value="option-3">Hiking</option>
           </select></div>
+
           <br>
           <br>
           <button type="clear">Clear</button>
