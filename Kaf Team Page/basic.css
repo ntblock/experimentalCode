@@ -1,5 +1,5 @@
 html, body {
-    background-color: #ffeead;
+    background-color: #ffffff;
     margin: 10px;
     font-family: "Lato", "Helvetiva", "Arial", sans-serif;
 }
@@ -122,4 +122,35 @@ li a:hover {
 h1 {
   margin: 40px;
   font-family: "Lato", "Helvetiva", "Arial", sans-serif;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 2px #191919;
+}
+
+.teamNames {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+  .teamgrid > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

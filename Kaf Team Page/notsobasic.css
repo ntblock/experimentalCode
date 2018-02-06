@@ -1,0 +1,69 @@
+.teamgrid > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #E54000;
+    align-content: center;
+    font-family: "Lato", "Helvetiva", "Arial", sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.teamgrid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 300px;
+    margin: 40px;
+
+}
+
+.teamgrid > div:hover {
+  background-color: white;
+  opacity: 0.85;
+  color: white;
+}
+
+.view-profile:hover {
+  display: block;
+  height: 20;
+  width: 125px;
+  background-color: green;
+  align-items: center;
+  position: absolute;
+  font-family: "Lato", "Helvetiva", "Arial", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+
+}
+
+.view-profile {
+  display: none;
+
+}
+
+.teamImages > img {
+    border-radius: 8px;
+}
+
+.teamImages:hover {
+  opacity: 0.85;
+  color: white;
+  background-color: white;
+}
+
+
+/*.teamNames {
+    align-items: center;
+    align-content: center;
+    justify-content: center;*/
+}
+/* This applies when nesting an object inside each div, like an image.
+.teamgrid > div {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
