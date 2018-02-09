@@ -157,38 +157,62 @@ h1 {
   opacity: .5;
 }
 
-.team-overlay:hover {
+.team-overlay:hover .team-box {
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  height: 88px;
+  width: 100%;
+  background-color: #191919;
+  opacity: .5;
+}
+
+.test:hover {
     filter:blur(1.5px) brightness(50%);
     box-shadow:0 0 0px;
   }
 
-/*.team-overlay:first-child:not(.profile-button) {
-    position:absolute;
-    z-index:1;
-    top:30%;
-    width:100%;
-    text-align:center;
-    color:#191919;
-    opacity:0;
-    transition:.3s;
-  }*/
-
 .team-overlay:hover .profile-button {
     display: block;
-    width: 80%;
+    width: 65%;
     height: 40px;
     background-color: green;
     position: absolute;
     text-align: center;
+    filter: opacity(.85);
   }
+
+.test {
+  display: contents;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.profile-button:hover {
+    display: block;
+    width: 65%;
+    height: 40px;
+    background-color: green;
+    position: absolute;
+    text-align: center;
+    filter: opacity(.85);
+}
+
+.profile-button:hover {
+  filter:blur(1.5px) brightness(50%);
+  box-shadow:0 0 0px;
+}
 
 .profile-button {
     display: none;
+    text-align: center;
   }
 
 .profile-button:link {
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 .profile-link {
@@ -198,6 +222,7 @@ h1 {
   top: 0;
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 .teamNames {
